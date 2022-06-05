@@ -14,6 +14,7 @@ import IconButton from "../ui/IconButton";
 
 const Base = styled.div`
     background: var(--secondary-background);
+    padding-bottom: 10px;
 `;
 
 const Navbar = styled.div`
