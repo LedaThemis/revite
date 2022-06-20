@@ -169,6 +169,7 @@ export default function App() {
                         component: <BottomNavigation />,
                         showIf: fixedBottomNav ? ShowIf.Always : ShowIf.Left,
                         height: 50,
+                        withSafeArea: true,
                     }}
                     docked={isTouchscreenDevice ? Docked.None : Docked.Left}>
                     <Routes borders={inServer}>

@@ -15,6 +15,7 @@ import UserIcon from "../common/user/UserIcon";
 
 const Base = styled.div`
     background: var(--secondary-background);
+    padding-bottom: var(--safe-area-inset-bottom);
 `;
 
 const Navbar = styled.div`
